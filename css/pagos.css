@@ -1,0 +1,110 @@
+
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: 0;   
+}
+
+
+header h1{
+   color: rgb(204, 0, 0);
+}
+
+header nav a{
+   font-size: 20px;
+   color: rgb(204, 0, 0);  
+   text-decoration: none ;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+ 
+}
+.ll{
+     background-color: black;
+}
+
+ .container-fluid {
+    display: flex;
+    justify-content: center;
+
+ }
+ 
+ .card {
+ 
+ padding: 5px;
+ border: 2px solid rgb(204, 0, 0); 
+ border-radius: 8px;
+ transition: 0.3s;
+ margin: 50px;
+ width: 200px;
+ background-color: black;
+ }
+
+ .card-body{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+ }
+ 
+ .card:hover {
+     transform: scale(1.05);
+     transition: 0.3s;
+     
+ }
+ 
+ 
+ .card-title {
+ font-size: 21px;
+ border-bottom: 1px solid black;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+ }
+ 
+ .card p {
+ padding: 10px 0;
+ font-size: 19px;
+ 
+ }
+ 
+ 
+ .card div {
+ background-color: black;
+ 
+ padding: 10px 50px;
+ border-radius: 5px;
+ color: white;
+ transition: 0.5s;
+ text-align: center;
+ 
+ }
+
+ .btn-primary{
+     background-color: rgb(204, 0, 0);
+     border: 1px solid rgb(204, 0, 0);
+    margin-top: 10px;
+}
+
+.btn{
+    margin-top: 30px;
+
+}
+
+ .card-icon {
+    width: 48px;
+    height: 48px;
+   margin-bottom: 16px;
+ }
+
+ .bi-star-fill {
+
+    color: gold;
+
+ }
+
+ .navbar {
+    background-color: black;
+ }
+
+ 
